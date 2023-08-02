@@ -21,7 +21,15 @@ class ViewController: UIViewController {
     // make function
     // under bar를 사용하게 되면 동일한 이름으로 사용이 가능하다
     func flipCard(withEmoji emoji:String, on button:UIButton) {
-        
+        if button.currentTitle == emoji {
+            button.setTitle("", for: UIControl.State.normal)
+            // background color
+            button.backgroundColor = UIColor.orange
+        } else {
+            // other wise
+            button.setTitle(emoji, for: UIControl.State.normal)
+            button.backgroundColor = UIColor.white
+        }
     }
 }
 
