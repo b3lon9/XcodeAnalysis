@@ -76,6 +76,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86D1DF362A7A7FDB00C94E5B /* Concentration */ = {
+			isa = PBXGroup;
+			children = (
+				86F9BE332A73F16B0054158E /* AppDelegate.swift */,
+				86F9BE3C2A73F16B0054158E /* Assets.xcassets */,
+				86F9BE3E2A73F16B0054158E /* LaunchScreen.storyboard */,
+			);
+			path = Concentration;
+			sourceTree = "<group>";
+		};
 		86F9BE272A73F16A0054158E = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +109,10 @@
 		86F9BE322A73F16B0054158E /* Study */ = {
 			isa = PBXGroup;
 			children = (
-				86F9BE332A73F16B0054158E /* AppDelegate.swift */,
+				86D1DF362A7A7FDB00C94E5B /* Concentration */,
 				86F9BE352A73F16B0054158E /* SceneDelegate.swift */,
 				86F9BE372A73F16B0054158E /* ViewController.swift */,
 				86F9BE392A73F16B0054158E /* Main.storyboard */,
-				86F9BE3C2A73F16B0054158E /* Assets.xcassets */,
-				86F9BE3E2A73F16B0054158E /* LaunchScreen.storyboard */,
 				86F9BE412A73F16B0054158E /* Info.plist */,
 			);
 			path = Study;
